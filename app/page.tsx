@@ -1,3 +1,14 @@
 export default function Page() {
-    return <h1>Hello, Next.js!</h1>;
+    return (
+        <>
+            <section>
+                <div className="section-bg">
+                    <img src="/assets/images/bg-1.jpg" alt="" />
+                </div>
+                <div className="section-header">
+                    <h1>Home</h1>
+                </div>
+            </section>
+        </>
+    );
 }
